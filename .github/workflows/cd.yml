@@ -21,4 +21,4 @@ jobs:
       - run: pnpm install
       - run: pnpm run compile
       - name: npm publish
-        run: npm publish --provenance --access public
+        run: npm publish --provenance --access public --stage
