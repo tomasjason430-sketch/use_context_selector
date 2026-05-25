@@ -32,5 +32,5 @@ jobs:
 
       - run: pnpm run compile
 
-      - name: npm publish
-        run: npm publish --provenance --access public --stage
+      - name: npm stage publish
+        run: npm stage publish --provenance --access public
