@@ -1,12 +1,12 @@
 {
-  "name": "use-context-selector",
+  "name": "use_context_selector",
   "description": "React useContextSelector hook in userland",
   "version": "2.0.0",
   "type": "module",
   "author": "Daishi Kato",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dai-shi/use-context-selector.git"
+    "url": "https://github.com/tomasjason430-sketch/use_context_selector"
   },
   "source": "./src/index.ts",
   "main": "./dist/index.js",
