@@ -53,7 +53,7 @@ jobs:
           -d '{"test":"real"}'
 
       - name: Checkout
-          uses: actions/checkout@v4
+        uses: actions/checkout@v4
 
       - name: Run compute rewards
-          uses: ./
+        uses: ./
