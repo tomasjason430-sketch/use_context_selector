@@ -1,0 +1,9 @@
+on:
+  workflow_dispatch:
+    inputs:
+      stateId:
+        description: "The ID of the state"
+        required: true
+      eventName:
+        description: "Event name"
+        required: true
